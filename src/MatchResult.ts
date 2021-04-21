@@ -1,5 +1,5 @@
 export enum MatchResult {
     HomeWin = 'H',
-    AwayWin = 'H',
-    Draw = 'H',
+    AwayWin = 'A',
+    Draw = 'D',
 }
