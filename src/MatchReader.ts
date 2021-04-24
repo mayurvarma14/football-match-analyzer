@@ -3,7 +3,7 @@ import MatchData from './MatchData';
 import { MatchResult } from './MatchResult';
 import CsvFileReader from './CsvFileReader';
 
-interface DataReader {
+export interface DataReader {
     read(): void;
     data: string[][];
 }

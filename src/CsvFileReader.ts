@@ -1,6 +1,7 @@
 import fs from 'fs';
+import { DataReader } from './MatchReader';
 
-export default class CsvFileReader {
+export default class CsvFileReader implements DataReader {
     data: string[][] = [];
 
     constructor(public filename: string) { }
